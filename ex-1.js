@@ -1,7 +1,7 @@
 let accountBalance = 400;
 let depositAmountFromUser = "10";
 
-accountBalance = accountBalance + depositAmountFromUser;
+accountBalance = accountBalance + Number(depositAmountFromUser); //เพิ่ม Number เข้าไป
 
 let accountBalanceMessage = "Your account balance is " + accountBalance;
 
